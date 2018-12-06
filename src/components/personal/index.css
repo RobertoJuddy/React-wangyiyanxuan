@@ -1,0 +1,175 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.Personal {
+  width: 7.5rem;
+  height: 100%;
+}
+.Personal .PersonalHeader {
+  width: 7.5rem;
+  height: 2.7rem;
+  background: #c0a368;
+  position: relative;
+  z-index: 4;
+}
+.Personal .PersonalHeader .PersonalHeaderLeft {
+  width: 5.1rem;
+  height: 1.41rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.Personal .PersonalHeader .PersonalHeaderLeft img {
+  width: 1.41rem;
+  height: 1.41rem;
+  border-radius: 50%;
+}
+.Personal .PersonalHeader .PersonalHeaderLeft .userInfo {
+  width: 3.38rem;
+  height: 0.79rem;
+  display: flex;
+  flex-direction: column;
+}
+.Personal .PersonalHeader .PersonalHeaderLeft .userInfo .phone {
+  width: 3.38rem;
+  height: 0.43rem;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.Personal .PersonalHeader .PersonalHeaderLeft .userInfo .normal {
+  width: 1.11rem;
+  height: 0.31rem;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.Personal .PersonalHeader .PersonalHeaderRight {
+  width: 2.1rem;
+  height: 2.7rem;
+  position: absolute;
+  right: 0;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .icon-erweima {
+  width: 0.63rem;
+  height: 0.63rem;
+  font-size: 0.4rem;
+  position: absolute;
+  right: 0;
+  top: 0.3rem;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP {
+  width: 2.03rem;
+  height: 0.84rem;
+  background: #444;
+  border-top-left-radius: 0.85333rem;
+  border-bottom-left-radius: 0.85333rem;
+  position: absolute;
+  top: 1rem;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .icon-lightningbshandian {
+  font-size: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .SuperVIP {
+  width: 1.34rem;
+  height: 0.82rem;
+  background: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .SuperVIP .SuperVIPText {
+  widht: 10.4rem;
+  height: 0.36rem;
+  font-size: 0.14rem;
+  color: #ede7db;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .SuperVIP .Immediately {
+  width: 1.34rem;
+  height: 0.27rem;
+  display: flex;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .SuperVIP .Immediately .ImmediatelyText {
+  width: 1rem;
+  height: 0.22rem;
+  color: #ede7db;
+  font-size: 0.14rem;
+}
+.Personal .PersonalHeader .PersonalHeaderRight .VIP .SuperVIP .Immediately .icon-right-circle {
+  font-size: 0.12rem;
+}
+.Personal .BScrollPersonal {
+  height: 9.5rem;
+  display: flex;
+}
+.Personal .BScrollPersonal .PersonalContent {
+  height: 10.35rem;
+  margin-top: -0.5rem;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalList {
+  widht: 7.5rem;
+  height: 9.4rem;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalList li {
+  width: 2.49rem;
+  height: 1.81rem;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalList li .iconfontMain {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalList li .iconfontMain .iconfont {
+  font-size: 0.7rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-left: -0.11rem;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalList li .PersonalText {
+  width: 2.48rem;
+  height: 0.24rem;
+  font-size: 0.14rem;
+  text-align: center;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalMainPhone {
+  width: 6.72rem;
+  height: 0.95rem;
+  background: #b4282d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 0.4rem;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalMainPhone .PhoneLogin {
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+}
+.Personal .BScrollPersonal .PersonalContent .PersonalMainPhone .PhoneIcon {
+  width: 0.39rem;
+  height: 0.39rem;
+  position: absolute;
+  left: 2.3rem;
+  top: -0.25rem;
+  z-index: 5;
+}

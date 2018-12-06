@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types'
-import {NavLink} from 'react-router-dom'
 import BScroll from 'better-scroll'
 import './index.css'
 import MsiteSwiper from '../swiper'

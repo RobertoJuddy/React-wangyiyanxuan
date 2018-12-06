@@ -1,8 +1,9 @@
 import {connect} from 'react-redux'
-import Main from '../components/main/main'
+import CartShop from "../components/cartShop/cartShop";
 import {getHomedata} from "../redux/action";
 
 export default connect(
-  state => ({data: state.data}),
+
+  state=>({data : state.data}),
   {getHomedata}
-)(Main)
+)(CartShop)

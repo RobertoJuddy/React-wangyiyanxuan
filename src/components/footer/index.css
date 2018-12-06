@@ -1,3 +1,13 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
 .footer {
   width: 100%;
   height: 49px;
@@ -6,21 +16,19 @@
   left: 0;
   z-index: 3;
   background: #fff;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-.footer   a {
+.footer a {
   width: 48px;
   height: 67px;
   text-align: center;
 }
-.footer   a.active {
+.footer a.active {
   color: #f00;
 }
-.footer   a .iconfont {
+.footer a .iconfont {
   width: 40px;
   height: 40px;
   display: block;
@@ -29,7 +37,7 @@
   line-height: 40px;
   margin: 0 auto;
 }
-.footer   a .footerText {
+.footer a .footerText {
   font-size: 12px;
   margin-top: -6px;
   display: block;

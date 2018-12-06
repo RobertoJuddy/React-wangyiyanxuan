@@ -3,7 +3,7 @@ import ajax from './ajax'
 // const BASE = ''
 export const reqGetHomeData = () => ajax('/homedata')
 
-// export const reqDataTopic = () => ajax('/datatopic')
+export const reqDataTopic = () => ajax('/datatopic')
 //
 // export const reqGetDataNav = () => ajax('/datanav')
 //

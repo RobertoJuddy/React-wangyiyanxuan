@@ -22,10 +22,10 @@ class Footer extends Component {
     return (
       <div className="footer">
 
-          {footList.map((item, index)=><NavLink to={`${item.to}`} key={index}>
-            <span className={`iconfont ${item.icon}`}></span>
-            <span className="footerText">{item.name}</span>
-          </NavLink>)}
+        {footList.map((item, index)=><NavLink to={`${item.to}`} key={index}>
+          <span className={`iconfont ${item.icon}`}></span>
+          <span className="footerText">{item.name}</span>
+        </NavLink>)}
 
       </div>
     )

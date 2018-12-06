@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 
 import Msite from '../../containers/msite'
-import Personal from '../personal'
+import Personal from '../personal/personal'
 import Cartgory from '../cartgory'
-import ShadowMatic from '../shadowMatic'
-import CartShop from '../cartShop'
-import Footer from '../footer'
-import PropTypes from "prop-types";
+import ShadowMatic from '../../containers/shadowMatic'
+import CartShop from '../../containers/cartShop'
+import Footer from '../footer/footer'
+
 
 class Main extends Component {
   // static propTypes = {
@@ -15,11 +15,12 @@ class Main extends Component {
   //   data : PropTypes.Object.isRequired
   // }
 
- async componentDidMount () {
-   await this.props.getHomedata()
+  async componentDidMount () {
+    await this.props.getHomedata()
   }
   render() {
     const {pathname} = this.props.location;
+
     if (pathname === '/') {
       return <Redirect to='/msite/0' />
     }
@@ -30,7 +31,7 @@ class Main extends Component {
           <Route path='/personal' component={Personal}/>
           <Route path='/cartgory' component={Cartgory}/>
           <Route path='/shadowmatic' component={ShadowMatic}/>
-          <Route path='/cartshop' component={CartShop}/>
+          <Route path='/cartshop' component={CartShop} />
         </Switch>
         <Footer/>
       </div>

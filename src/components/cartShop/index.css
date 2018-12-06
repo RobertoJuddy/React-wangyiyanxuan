@@ -1,0 +1,66 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.CartContainer {
+  width: 7.5rem;
+  height: 12.46rem;
+  background: #f4f4f4;
+  position: relative;
+}
+.CartContainer .serve {
+  width: 100%;
+  height: 0.72rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.CartContainer .serve .serveItem {
+  width: 2.27rem;
+  height: 0.36rem;
+}
+.CartContainer .serve .serveItem .imgServe {
+  width: 0.32rem;
+  height: 0.32rem;
+  float: left;
+}
+.CartContainer .serve .serveItem span {
+  height: 0.32rem;
+  display: block;
+  font-size: 0.14rem;
+  margin-top: 0.04rem;
+}
+.CartContainer .cartImg {
+  background-image: url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noCart-a8fe3f12e5.png");
+  width: 2.48rem;
+  height: 2.48rem;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+.CartContainer .login {
+  margin: auto;
+  width: 5rem;
+  height: 1.22667rem;
+  font-size: 0.4rem;
+  line-height: 1.22667rem;
+  color: #fff;
+  background-color: #b4282d;
+  border-radius: 0.04rem;
+  text-align: center;
+  position: absolute;
+  top: 8rem;
+  left: 1.3rem;
+}
