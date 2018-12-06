@@ -1,0 +1,111 @@
+@import '../../assets/stylus/mixins.styl'
+.wrap
+  width 100%
+  height 13.34rem
+  overflow hidden
+  .header
+    width 100%
+    height 1.5rem
+    position fixed
+    background-color: white
+    top 0
+    z-index 10
+    .headerTop
+      width 100%
+      height 0.9rem
+      display flex
+      justify-content space-around
+      align-items center
+      position relative
+      h2
+        margin-left -0.7rem
+        font-weight bold
+        font-size 0.36rem
+      input
+        width 4rem
+        height 0.6rem
+        border-radius 0.3rem
+        padding-left 0.5rem
+        box-sizing border-box
+        background #EDEDED
+        font-size 0.24rem
+        margin-left -1.9rem
+      .iconItem
+        position: absolute
+        left 2.5rem
+        top -0.3rem
+        .iconfont
+          font-size 0.3rem
+
+
+    /*头部导航*/
+    .wrapper
+      width 100%
+      height 0.5rem
+      display flex
+      .navList
+        display flex
+        align-items flex-start
+        padding 0 0.1rem
+        li
+          width 0.8rem
+          height 0.6rem
+          display flex
+          align-items center
+          justify-content center
+          font-size 0.14rem
+          line-height 0.6rem
+          position relative
+          margin-right 0.61rem
+          margin-left 0.38rem
+          &.active
+            color red
+            &::after
+              display: block
+              content ""
+              width 100%
+              height 0.03rem
+              position absolute
+              left 0
+              bottom 0
+              background red
+
+  .container
+    width 100%
+    height 100%
+    .main
+      width 7.5rem
+      position relative
+      margin-top 1.5rem
+      padding-bottom 2rem
+      .firstPublish
+        width 7.5rem
+        height 2.6rem
+        background: #F1F7FD
+        display flex
+        flex-direction column
+        justify-content space-around
+        align-items center
+        color #8BA0B6
+        .new
+          width 3.8rem
+          height 0.72rem
+          font-size 0.54rem
+          background #F1F7FD
+          text-align: center
+          margin-top 0.5rem
+        button
+          width 2.4rem
+          height 0.56rem
+          background: #D8E5F1
+          border none
+          outline none
+          margin-bottom 0.5rem
+
+      .m-site
+        width 7.5rem
+        height 3rem
+        img
+          width 100%
+          height 100%
+

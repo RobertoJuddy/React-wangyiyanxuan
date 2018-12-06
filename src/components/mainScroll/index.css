@@ -1,0 +1,62 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.living {
+  width: 7.5rem;
+  height: 23.5rem;
+}
+.living .livingText {
+  text-align: center;
+  font-size: 0.3rem;
+  width: 7.5rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  border-top: 0.01rem solid #808080;
+}
+.living .livingList {
+  width: 7.5rem;
+  height: 23.07rem;
+}
+.living .livingList li {
+  width: 3.45rem;
+  height: 5.61rem;
+  float: left;
+  margin: 0 0.124rem;
+}
+.living .livingList li img {
+  width: 3.45rem;
+  height: 3.45rem;
+}
+.living .livingList li .livingName {
+  font-size: 0.16rem;
+  width: 3.47rem;
+  height: 0.69rem;
+  line-height: 0.69rem;
+  text-align: center;
+  display: block;
+  background: #f1ece2;
+}
+.living .livingList li .simpleDesc {
+  font-size: 0.16rem;
+  width: 3.45rem;
+  height: 0.48rem;
+  display: block;
+  text-align: center;
+  line-height: 0.48rem;
+}
+.living .livingList li .livingPrice {
+  font-size: 0.2rem;
+  color: #f00;
+  display: block;
+  width: 1.06rem;
+  height: 0.42rem;
+  line-height: 0.42rem;
+  margin-left: 0.3rem;
+}

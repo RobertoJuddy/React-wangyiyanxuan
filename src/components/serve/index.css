@@ -1,0 +1,32 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.serve {
+  width: 100%;
+  height: 0.72rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.serve .serveItem {
+  width: 2.27rem;
+  height: 0.36rem;
+}
+.serve .serveItem .imgServe {
+  width: 0.32rem;
+  height: 0.32rem;
+  float: left;
+}
+.serve .serveItem span {
+  height: 0.32rem;
+  display: block;
+  font-size: 0.14rem;
+  margin-top: 0.04rem;
+}

@@ -1,0 +1,50 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.project {
+  width: 100%;
+  display: flex;
+}
+.project .projectList {
+  display: flex;
+  justify-content: flex-start;
+}
+.project .projectList li {
+  height: 4.09rem;
+  width: 5.75rem;
+  background: #f4f4f4;
+  margin-right: 0.4rem;
+  position: relative;
+}
+.project .projectList li img {
+  width: 5.75rem;
+  height: 3.19rem;
+}
+.project .projectList li .title {
+  font-size: 0.15rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 3.4rem;
+}
+.project .projectList li .subtitle {
+  font-size: 0.14rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 3.8rem;
+  color: #808080;
+}
+.project .projectList li .priceInfo {
+  font-size: 0.14rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 3.4rem;
+  color: #f00;
+  font-weight: bold;
+}

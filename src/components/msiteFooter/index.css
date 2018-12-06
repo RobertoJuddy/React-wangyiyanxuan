@@ -1,0 +1,58 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.msiteFooter {
+  width: 7.5rem;
+  height: 3.59rem;
+}
+.msiteFooter .MFooter {
+  width: 7.5rem;
+  height: 2.6rem;
+  background: #414141;
+  position: relative;
+}
+.msiteFooter .MFooter .download {
+  width: 1.73rem;
+  height: 0.64rem;
+  color: #fff;
+  font-size: 0.14rem;
+  background: #414141;
+  position: absolute;
+  left: 1.4rem;
+  top: 0.55rem;
+}
+.msiteFooter .MFooter .computer {
+  width: 1.73rem;
+  height: 0.64rem;
+  color: #fff;
+  font-size: 0.14rem;
+  background: #414141;
+  position: absolute;
+  left: 4rem;
+  top: 0.55rem;
+}
+.msiteFooter .MFooter .company {
+  font-size: 0.16rem;
+  position: absolute;
+  left: 1.6rem;
+  top: 1.5rem;
+}
+.msiteFooter .MFooter .year {
+  font-size: 0.16rem;
+  position: absolute;
+  left: 4.6rem;
+  top: 1.5rem;
+}
+.msiteFooter .MFooter .licence {
+  font-size: 0.16rem;
+  position: absolute;
+  left: 1.4rem;
+  top: 1.88rem;
+}
