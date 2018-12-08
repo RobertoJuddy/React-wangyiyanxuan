@@ -1,0 +1,30 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.Category {
+  width: 1.63rem;
+}
+.Category .CategoryList {
+  width: 1.62rem;
+  border-right: 0.02rem solid #ededed;
+}
+.Category .CategoryList li {
+  width: 1.62rem;
+  height: 0.5rem;
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.5rem;
+  margin: 0.358rem 0;
+}
+.Category .CategoryList li.active {
+  border-left: 0.03rem solid #f00;
+  font-size: 0.34rem;
+  color: #f00;
+}

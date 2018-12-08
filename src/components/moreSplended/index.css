@@ -1,0 +1,43 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.MoreSplended {
+  width: 6.9rem;
+  height: 5.05rem;
+  margin-top: 0.5rem;
+}
+.MoreSplended .MoreSplendedImg {
+  width: 6.42rem;
+  height: 3.6rem;
+}
+.MoreSplended .MoreSplendedImg img {
+  width: 100%;
+  height: 100%;
+}
+.MoreSplended .MoreSplendedText {
+  width: 6.9rem;
+  height: 0.9rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+.MoreSplended .MoreSplendedText span {
+  display: block;
+  width: 6.9rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.16rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}

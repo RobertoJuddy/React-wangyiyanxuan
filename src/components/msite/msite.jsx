@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import BScroll from 'better-scroll'
 import './index.css'
-import MsiteSwiper from '../swiper'
+import MsiteSwiper from '../swiper/msiteSwiper'
 import Serve from "../serve";
 import Split from '../split'
 import DirectSupply from '../directSupply/directSupply'
@@ -9,6 +9,7 @@ import PublishSwiper from "../publishSwiper/publishSwiper";
 import ProjectSelection from "../projectSelection/projectSelection";
 import MainScroll from "../mainScroll/mainScroll";
 import MsiteFooter from "../msiteFooter/msiteFooter";
+import Pubsub from 'pubsub-js'
 
 class Msite extends Component {
 
@@ -33,6 +34,10 @@ class Msite extends Component {
     this.setState({
       current : index
     })
+
+    this.props.history.push(`/msite/${index}`)
+
+    Pubsub.publish('msg' , index)
   }
 
   render() {

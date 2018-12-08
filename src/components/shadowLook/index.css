@@ -1,0 +1,43 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.ShadowLook {
+  width: 7.5rem;
+  height: 9rem;
+}
+.ShadowLook .ShadowLookImg {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.ShadowLook .ShadowLookImg img {
+  width: 100%;
+  height: 100%;
+}
+.ShadowLook .ShadowLookInfo {
+  width: 6.9rem;
+  height: 0.48rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.ShadowLook .ShadowLookInfo img {
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  margin-right: 0.2rem;
+}
+.ShadowLook .ShadowLookInfo .ShadowLookText {
+  width: 0.91rem;
+  height: 0.24rem;
+  font-size: 0.14rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

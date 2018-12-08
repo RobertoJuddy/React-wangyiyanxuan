@@ -1,0 +1,47 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.shadowScrollContainer {
+  display: flex;
+  padding: 0.28rem 0.3rem;
+  box-sizing: border-box;
+}
+.shadowScrollContainer .shadowScrollList {
+  display: flex;
+}
+.shadowScrollContainer .shadowScrollList li {
+  width: 1.64rem;
+  height: 2.1rem;
+  margin-right: 0.2rem;
+  position: relative;
+}
+.shadowScrollContainer .shadowScrollList img {
+  width: 1.64rem;
+  height: 1.64rem;
+}
+.shadowScrollContainer .shadowScrollList .shadowScrollText {
+  width: 1.64rem;
+  height: 0.24rem;
+  font-size: 0.14rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 1.8rem;
+}
+.shadowScrollContainer .shadowScrollList .shadowTopText {
+  width: 1.64rem;
+  height: 0.32rem;
+  background: #bbb6b2;
+  color: #fff;
+  font-size: 0.14rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+}

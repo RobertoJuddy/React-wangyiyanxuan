@@ -3,7 +3,7 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 
 import Msite from '../../containers/msite'
 import Personal from '../personal/personal'
-import Cartgory from '../cartgory'
+import Cartgory from '../../containers/cartgory'
 import ShadowMatic from '../../containers/shadowMatic'
 import CartShop from '../../containers/cartShop'
 import Footer from '../footer/footer'

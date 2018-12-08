@@ -1,11 +1,13 @@
 
 import {
   reqGetHomeData,
-  reqDataTopic
+  reqDataTopic,
+  reqGetDataNav
 } from '../api'
 import {
   GETHOMEDATA_SUCCESS,
-  GETDATATOPIC_SUCCESS
+  GETDATATOPIC_SUCCESS,
+  GETDATANAV_SUCCESS
 }  from './action-types'
 
 
@@ -14,7 +16,7 @@ export const gethomedata_success = info =>({type :GETHOMEDATA_SUCCESS ,data: inf
 
 export const getdatatopic_success = info =>({type : GETDATATOPIC_SUCCESS, data : info})
 
-
+export const getdatanav_success = info => ({type : GETDATANAV_SUCCESS, data : info})
 
 //异步action
 export const getHomedata = data => {
@@ -36,6 +38,18 @@ export const getDataTopic = data =>{
     if(result.code === 0 ){
       dispatch(getdatatopic_success(result.data))
     }
+
+  }
+}
+
+
+export const getDataNav = data => {
+  return async dispatch => {
+    const result = await reqGetDataNav(data)
+    if(result.code===0) {
+      dispatch(getdatanav_success(result.data))
+    }
+
 
   }
 }

@@ -1,0 +1,78 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.MainCategory {
+  height: 11.44rem;
+/*height 6.75rem*/
+  display: flex;
+}
+.MainCategory .CategoryScroll {
+  width: 100%;
+}
+.CategoryRightInfo {
+  width: 5.28rem;
+  padding: 0.3rem 0.3rem 0.21rem 0.3rem;
+  box-sizing: border-box;
+}
+.CategoryRightInfo .CategoryImg {
+  width: 5.28rem;
+  height: 1.92rem;
+  margin-left: -0.6rem;
+}
+.CategoryRightInfo .CategoryImg img {
+  width: 5.28rem;
+  height: 1.73rem;
+}
+.CategoryRightInfo .CategoryText {
+  width: 5.28rem;
+  height: 1.08rem;
+  text-align: center;
+}
+.CategoryRightInfo .CategoryText .recommend {
+  width: 0.96rem;
+  height: 0.31rem;
+  font-size: 0.2rem;
+  text-align: center;
+  margin-left: -0.8rem;
+}
+.CategoryRightInfo .CategoryText .classify {
+  width: 0.96rem;
+  height: 0.31rem;
+  font-size: 0.2rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.CategoryRightInfo .CategoryMain {
+  width: 5.28rem;
+}
+.CategoryRightInfo .CategoryMain .CategoryMainList {
+  width: 100%;
+  margin-left: -0.3rem;
+}
+.CategoryRightInfo .CategoryMain .CategoryMainList li {
+  width: 1.44rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  margin-right: 0.3rem;
+}
+.CategoryRightInfo .CategoryMain .CategoryMainList li img {
+  width: 1.44rem;
+  height: 1.44rem;
+  border-radius: 50%;
+}
+.CategoryRightInfo .CategoryMain .CategoryMainList li span {
+  width: 1.44rem;
+  height: 0.75rem;
+  font-size: 0.16rem;
+  text-align: center;
+}

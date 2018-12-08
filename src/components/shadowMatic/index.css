@@ -80,11 +80,11 @@
   font-size: 0.4rem;
   text-align: center;
 }
-.app .shadowMaticContainer {
+.app .shadowMaticContainerI {
   width: 7.5rem;
   height: 100%;
 }
-.app .shadowMaticContainer .main {
+.app .shadowMaticContainerI .main {
   width: 7.5rem;
   margin-top: 0.8798rem;
   padding-bottom: 2rem;

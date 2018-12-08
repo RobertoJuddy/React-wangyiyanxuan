@@ -5,7 +5,7 @@ export const reqGetHomeData = () => ajax('/homedata')
 
 export const reqDataTopic = () => ajax('/datatopic')
 //
-// export const reqGetDataNav = () => ajax('/datanav')
+export const reqGetDataNav = () => ajax('/datanav')
 //
 // export const reqSendCode = (phone) => ajax(BASE +'/sendcode' , {phone})
 //

@@ -1,0 +1,59 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.Recommend {
+  width: 6.88rem;
+  height: 3.86rem;
+  position: relative;
+}
+.Recommend .RecommendImg {
+  width: 100%;
+  height: 100%;
+}
+.Recommend .RecommendText {
+  display: block;
+  width: 1.61rem;
+  height: 0.38rem;
+  background: #fff;
+  color: #000;
+  border-radius: 0.2rem;
+  font-size: 0.14rem;
+  text-align: center;
+  line-height: 0.38rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.nickInfo {
+  width: 6.9rem;
+  height: 1.22rem;
+  position: relative;
+}
+.nickInfo .nickName {
+  font-size: 0.4rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+}
+.nickInfo .nickPrice {
+  font-size: 0.4rem;
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+.nickInfo .nickDescript {
+  width: 6.5rem;
+  height: 0.33rem;
+  font-size: 0.3rem;
+  position: absolute;
+  left: 0.3rem;
+  bottom: 0.05rem;
+  color: #808080;
+}

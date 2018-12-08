@@ -1,7 +1,8 @@
 import {combineReducers} from 'redux'
 import {
   GETHOMEDATA_SUCCESS,
-  GETDATATOPIC_SUCCESS
+  GETDATATOPIC_SUCCESS,
+  GETDATANAV_SUCCESS
 } from './action-types'
 
 const registerState = {
@@ -31,10 +32,23 @@ function dataTopic(PreState=initDataTopic ,action) {
   }
 }
 
+const initDataNav = {
+  dataNav : {}
+}
+function dataNav(PreState=initDataNav ,action) {
+  switch (action.type) {
+    case GETDATANAV_SUCCESS :
+      return action.data
+    default :
+      return PreState
+  }
+}
+
 
 export default combineReducers ({
     data,
-    dataTopic
+    dataTopic,
+    dataNav
 }
 
 )

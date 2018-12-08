@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Switch ,Route, HashRouter} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import Main from "./containers/main";
+import Login from './components/login/login'
 import './components/mock/mockServer'
 import store from './redux/store'
 import './assets/reset.css'
@@ -13,6 +14,7 @@ import './assets/reset.css'
      <HashRouter>
        <Switch>
          <Route to='/'  component={Main} />
+         {/*<Route to='/login' component={Login}*/}
        </Switch>
      </HashRouter>
    </Provider>

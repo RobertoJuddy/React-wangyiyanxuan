@@ -1,0 +1,83 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.ShadowContainer {
+  display: flex;
+}
+.ShadowContainer .ShadowMaticContainer {
+  display: flex;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain {
+  width: 6.9rem;
+  height: 5.27rem;
+  background: url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/tenFifteen-2a1d0ea11b.png");
+  background-size: 6.59rem 5.27rem;
+  background-repeat: no-repeat;
+  margin-right: 0.4rem;
+  text-align: center;
+  position: relative;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .days {
+  width: 100%;
+  text-align: center;
+  font-size: 0.2rem;
+  position: absolute;
+  color: #808080;
+/*left 2.5rem*/
+  top: 0.5rem;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .life {
+  width: 100%;
+  font-size: 0.4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1.2rem;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .tear {
+  width: 100%;
+  font-size: 0.25rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2.1rem;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .ShadowImgAll {
+  width: 5rem;
+  height: 0.75rem;
+  display: flex;
+  margin-top: 2.8rem;
+  margin-left: 1.7rem;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .ShadowImgAll .ShadowImg {
+  width: 0.5rem;
+  height: 0.5rem;
+  display: flex;
+  margin-right: 0.2rem;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .ShadowImgAll .ShadowImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .ShadowImgAll .ShadowText {
+  width: 1.2rem;
+  height: 0.31rem;
+  font-size: 0.14rem;
+  margin-top: 0.1rem;
+  color: #808080;
+}
+.ShadowContainer .ShadowMaticContainer .ShadowMacicMain .ShadowImgAll .person {
+  width: 0.14rem;
+  height: 0.31rem;
+  font-size: 0.14rem;
+  margin-top: 0.1rem;
+}
